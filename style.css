@@ -1,6 +1,5 @@
 /* General Styles */
 body {
-  padding: 20px 100px;
   margin: 0;
   background-color: #022225;
   color: white;
@@ -8,6 +7,7 @@ body {
 }
 
 #main {
+  margin: 20px 100px;
   background-color: rgb(25, 50, 41);
   padding: 20px;
 }
@@ -43,10 +43,14 @@ body {
 
 .name_info h1 {
   font-size: 2.5vmax;
+  padding: 0px;
+  margin: 0px;
 }
 
 .name_info h4 {
   color: rgb(0, 255, 166);
+  padding: 0px;
+  margin: 0px;
 }
 
 .details {
@@ -220,11 +224,7 @@ body {
 }
 
 /* Responsive Adjustments */
-@media screen and (max-width: 768px) {
-  body {
-    padding: 10px; /* 10px padding on all sides for mobile */
-  }
-}
+
 @media screen and (min-width: 768px) {
   #header {
     flex-direction: row;
@@ -256,6 +256,7 @@ body {
 
   .employment {
     width: 70%;
+    margin: 25px 0;
   }
 
   .skills {
@@ -267,6 +268,9 @@ body {
   .name_info h1 {
     font-size: 20px;
   }
+  #main {
+    margin: 20px 10px;
+  }
 
   .name_info h4 {
     font-size: 14px;
@@ -276,9 +280,13 @@ body {
     height: 100px;
     width: 80px;
   }
+  .details {
+    text-align: center;
+  }
 
   .details h6 {
     font-size: 14px;
+    padding: 5px;
   }
 
   .skill span {
