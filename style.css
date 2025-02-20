@@ -51,13 +51,15 @@ body {
 
 .details {
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
 }
 
 .details h6 {
   font-size: 16px;
   font-weight: 200;
+  padding: 5px 0px;
+  margin: 0px;
 }
 
 .details span {
@@ -218,6 +220,11 @@ body {
 }
 
 /* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px; /* 10px padding on all sides for mobile */
+  }
+}
 @media screen and (min-width: 768px) {
   #header {
     flex-direction: row;
@@ -240,7 +247,7 @@ body {
 
   .details {
     width: 30%;
-    text-align: right;
+    text-align: left;
   }
 
   #information {
