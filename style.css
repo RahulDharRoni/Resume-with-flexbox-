@@ -172,6 +172,12 @@ body {
   align-items: center;
   padding: 5px;
 }
+.box {
+  width: 10px;
+  height: 10px;
+  background-color: #ffc400;
+  margin-right: 10px;
+}
 
 .language-skills {
   margin-top: 30px;
